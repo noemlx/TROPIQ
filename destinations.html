@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TROPIQ - Nos Destinations</title>
+    <link rel="stylesheet" href=".idea/styles-supplementaires.css">
+    <link rel="stylesheet" href=".idea/style.css">
+</head>
+<body>
+<!-- Header avec Navigation -->
+<header id="header">
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1><a href="index.html" style="color: inherit; text-decoration: none;">TROPIQ</a></h1>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="destinations.html" class="active">Destinations</a></li>
+                <li><a href="evasion-responsable.html">Évasion Responsable</a></li>
+                <li><a href="a-propos.html">À Propos</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- Hero Section -->
+    <section class="destinations-hero">
+        <div class="hero-content">
+        <h1>Nos Destinations de Rêve</h1>
+        <p>Découvrez les plus beaux paradis tropicaux de la planète</p>
+    </div>
+    </section>
+
+    <!-- Section Destinations -->
+    <section class="destinations-section" style="padding-top: 50px;">
+        <div class="container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Toutes</button>
+                <button class="filter-btn" data-filter="maldives">Maldives</button>
+                <button class="filter-btn" data-filter="polynesie">Polynésie</button>
+                <button class="filter-btn" data-filter="maurice">Maurice</button>
+                <button class="filter-btn" data-filter="asie">Asie</button>
+            </div>
+
+            <div class="destinations-grid">
+                <div class="destination-card" data-category="maldives">
+                    <img src="https://www.cherifaistesvalises.com/wp-content/uploads/2022/04/dormir-maldives-1170x694.jpg" alt="Maldives">
+                    <div class="card-content">
+                        <h3>Maldives</h3>
+                        <p class="price">À partir de 2 500€</p>
+                        <p class="duration">7 jours / 6 nuits</p>
+                        <ul class="highlights">
+                            <li>Bungalows sur pilotis</li>
+                            <li>Plongée avec masque et tuba</li>
+                            <li>Spa luxueux</li>
+                        </ul>
+                        <a href="maldives.html" class="btn-details">Voir détails</a>
+                    </div>
+                </div>
+
+                <div class="destination-card" data-category="polynesie">
+                    <img src="https://www.tourmag.com/photo/art/grande/76343188-54498548.jpg?v=1698926806" alt="Bora Bora">
+                    <div class="card-content">
+                        <h3>Bora Bora</h3>
+                        <p class="price">À partir de 3 200€</p>
+                        <p class="duration">8 jours / 7 nuits</p>
+                        <ul class="highlights">
+                            <li>Lagon turquoise</li>
+                            <li>Culture polynésienne</li>
+                            <li>Randonnées tropicales</li>
+                        </ul>
+                        <a href="bora-bora.html" class="btn-details">Voir détails</a>
+                    </div>
+                </div>
+
+                <div class="destination-card" data-category="maurice">
+                    <img src="https://pictures.latribune.fr/cdn-cgi/image//749/1971749.png?twic=v1/cover=1200x675" alt="Seychelles">
+                    <div class="card-content">
+                        <h3>Seychelles</h3>
+                        <p class="price">À partir de 2 800€</p>
+                        <p class="duration">7 jours / 6 nuits</p>
+                        <ul class="highlights">
+                            <li>Plages de sable blanc</li>
+                            <li>Tortues géantes</li>
+                            <li>Forêts tropicales</li>
+                        </ul>
+                        <a href="seychelles.html" class="btn-details">Voir détails</a>
+                    </div>
+                </div>
+
+                <div class="destination-card" data-category="maurice">
+                    <img src="https://ou-dormir.fr/wp-content/uploads/sites/2/2021/10/hebergement-ile-maurice.jpg" alt="Maurice">
+                    <div class="card-content">
+                        <h3>Île Maurice</h3>
+                        <p class="price">À partir de 2 200€</p>
+                        <p class="duration">6 jours / 5 nuits</p>
+                        <ul class="highlights">
+                            <li>Diversité culturelle</li>
+                            <li>Sports nautiques</li>
+                            <li>Jardins botaniques</li>
+                        </ul>
+                        <a href="ile-maurice.html" class="btn-details">Voir détails</a>
+                    </div>
+                </div>
+
+                <div class="destination-card" data-category="asie">
+                    <img src="https://www.thehotelguru.com/_images/a5/a0/a5a0c0a0115906f8eae12f4917f818c1/original.jpg" alt="Bali">
+                    <div class="card-content">
+                        <h3>Bali</h3>
+                        <p class="price">À partir de 1 800€</p>
+                        <p class="duration">8 jours / 7 nuits</p>
+                        <ul class="highlights">
+                            <li>Temples balinais</li>
+                            <li>Rizières en terrasses</li>
+                            <li>Yoga et méditation</li>
+                        </ul>
+                        <a href="bali.html" class="btn-details">Voir détails</a>
+                    </div>
+                </div>
+
+                <div class="destination-card" data-category="polynesie">
+                    <img src="https://content.r9cdn.net/rimg/dimg/69/19/6f8c61d1-ctry-80-164fb374808.jpg?width=1366&height=768&xhint=2639&yhint=2252&crop=true " alt="Fidji">
+                    <div class="card-content">
+                        <h3>Fidji</h3>
+                        <p class="price">À partir de 2 600€</p>
+                        <p class="duration">7 jours / 6 nuits</p>
+                        <ul class="highlights">
+                            <li>Récifs coralliens</li>
+                            <li>Culture fidjienne</li>
+                            <li>Activités aquatiques</li>
+                        </ul>
+                        <a href="fidji.html" class="btn-details">Voir détails</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>TROPIQ</h3>
+                <p>Votre agence spécialisée dans les destinations tropicales d'exception.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="destinations.html">Destinations</a></li>
+                    <li><a href="evasion-responsable.html">Évasion Responsable</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Destinations</h4>
+                <ul>
+                    <li><a href="maldives.html">Maldives</a></li>
+                    <li><a href="bora-bora.html">Bora Bora</a></li>
+                    <li><a href="seychelles.html">Seychelles</a></li>
+                    <li><a href="ile-maurice.html">Île Maurice</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>📞 +33 1 23 45 67 89</p>
+                <p>✉️ contact@tropiq.fr</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TROPIQ. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
